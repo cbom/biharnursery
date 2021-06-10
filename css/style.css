@@ -1,0 +1,157 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+	background-color: #23415C;
+	padding : 1% 0;
+	font-size: 1.2em;
+	background: linear-gradient(to bottom,rgba(0,0,0,1) 0%,transparent 100%);
+	border:none;
+}
+.navbar-brand{
+	min-height:55px;
+	padding : 0 15px 5px;
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+	color: #FFF;
+}
+
+/* Get Startet Button */
+.get-started-btn {
+  margin-left: 25px;
+  background: #d9232d;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 30px 9px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+#home{	
+	background: url(background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 40%;
+	position: relative;
+	width : 100%;
+	background-size: cover;
+	
+}
+
+#categories{
+	padding: 30px 0px;
+	background-color: #DCEDC8;
+}
+#categories h1{
+	font-weight: 900;
+	font-size: 34px;
+	padding-bottom: 5px;
+}
+.title{
+	text-align: center;
+	padding: 25px 0px;
+}
+.title p{
+	font-size: 18px;
+}
+.card{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.1)
+	border-radius: .25rem;
+}
+.card-body{
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.one{
+	padding-bottom: 30px;
+}
+footer {
+	width: 100%;
+	background-color: #4CAF50;
+	padding: none;
+	color: #fff;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.icon{
+	max-width: 200px;
+}
+.mob1{
+	text-decoration: none;
+	color:#fff;
+}
+.mob1:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.mob2{
+	text-decoration: none;
+	color:#fff;
+}
+.mob2:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.add{
+	text-decoration: none;
+	color:#fff;
+}
+.add:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+@media (max-width: 768px){
+	
+	.landing-text{
+		padding-top: 35%
+		
+	}
+	#home{
+		background-size: contain;
+		background-position: top;
+		padding-bottom: none;
+	}
+	.icon{
+		padding-top:5px;
+		max-width: 100px;
+	}
+	.two{
+		padding-bottom: 20px;
+	}
+	.about{
+		padding-left: 50px;
+	}
+	.navbar-brand{
+		padding: 0 0 5px;
+		max-width: 80px;
+		size: 10px;
+		border: none;
+	}
+	
+}
